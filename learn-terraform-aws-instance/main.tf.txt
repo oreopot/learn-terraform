@@ -1,0 +1,13 @@
+
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "~> 4.16"
+    }
+    digitalocean = {
+      source  = "digitalocean/digitalocean"
+      version = "2.26.0"
+    }
+  }
+}
